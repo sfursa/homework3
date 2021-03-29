@@ -60,12 +60,20 @@ public class Main {
         squareArray[1][0] = 14;
         squareArray[1][1] = 15;
         squareArray[1][2] = 16;
-        System.out.print(squareArray[0][0] + "[" + 0 + "]" + "[" + 0 + "] ");
-        System.out.print(squareArray[0][1] + "[" + 0 + "]" + "[" + 1 + "] ");
-        System.out.println(squareArray[0][2] + "[" + 0 + "]" + "[" + 2 + "] ");
-        System.out.print(squareArray[1][0] + "[" + 1 + "]" + "[" + 0 + "] ");
-        System.out.print(squareArray[1][1] + "[" + 1 + "]" + "[" + 1 + "] ");
-        System.out.println(squareArray[1][1] + "[" + 1 + "]" + "[" + 2 + "] ");
+//        System.out.print(squareArray[0][0] + "[" + 0 + "]" + "[" + 0 + "] ");
+//        System.out.print(squareArray[0][1] + "[" + 0 + "]" + "[" + 1 + "] ");
+//        System.out.println(squareArray[0][2] + "[" + 0 + "]" + "[" + 2 + "] ");
+//        System.out.print(squareArray[1][0] + "[" + 1 + "]" + "[" + 0 + "] ");
+//        System.out.print(squareArray[1][1] + "[" + 1 + "]" + "[" + 1 + "] ");
+//        System.out.println(squareArray[1][1] + "[" + 1 + "]" + "[" + 2 + "] ");
+        for (int i = 0; i < squareArray.length; i++) {
+            for (int j = 0; j < squareArray[i].length; j++) {
+
+                System.out.print(squareArray[i][j] + "[" + i + "]" + "[" + j + "]" + " ");
+            }
+            System.out.println();
+        }
+
 
     }
 }
